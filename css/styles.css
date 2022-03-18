@@ -31,7 +31,6 @@ h1 {
 
 /* From 0px to 837px */
 
-
 main .container {
   max-width: 20.438rem;
   height: 82.875rem;
@@ -106,7 +105,6 @@ main .container .card {
   color: var(--dark-cyan);
 }
 
-
 /* Media Queries */
 
 @media screen and (min-width: 837px) {
@@ -121,6 +119,10 @@ main .container .card {
     height: 31.25rem;
     display: flex;
     flex-direction: row;
+  }
+
+  main .container .card {
+    height: 31.25rem;
   }
 
   .card-sedan {
@@ -148,6 +150,8 @@ main .container .card {
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
-  
 
+  .content-description {
+    padding-bottom: 5.188rem;
+  }
 }
